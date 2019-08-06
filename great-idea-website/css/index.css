@@ -63,4 +63,24 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+
+a{
+	text-decoration: none;
+	
+}
+
+.buttons{
+  margin: 10px 20px;
+  margin-bottom: 150px;
+  letter-spacing: 1px;
+	margin-right: 50px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  
+  margin-bottom: 20px;
+ 
+}
