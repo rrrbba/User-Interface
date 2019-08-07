@@ -67,98 +67,121 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-*{
-	margin-inline: -50px;
-	margin-
+.container {
+	width: 800px;
+	margin: auto;
+	}
+
+.top-nav {
+	margin: 0 auto;
 }
 
-nav a{
+nav {
+	display: inline-block;
+	margin: 0 0 10px;
+}
+
+nav a {
+	/* TB LR */
+	margin: 20px;
+	color: lightgray;
 	text-decoration: none;
-	color: lightgrey;
-	margin: 0 20px 10px 50px;
+}
+
+.logo {
+	display: inline-block;
+	margin: 20px 0 -11px 50px;
+}
+
+.header-content {
+	display: block;
+}
+
+.billboard {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.main-heading {
+	width: 400px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.main-heading h1 {
+	padding: 0px;
+	margin: 80px;
+	font-size: 60px;
 	text-align: center;
-	padding: 10px;
 }
 
-.buttons{
-	margin: 50px;
-	text-align: left;
-  }
-
-p{
-	font-size: 12px;
-	display: inline-block;
-	padding: 10px;
-}
-
-.logo{
-	display: inline-block;
-	vertical-align: top;
-	margin-right: -20px;
-	padding-left: 100px;
-	display: relative;
-	right: -50
-}
-
-.big{
-	display: inline-block;
-	padding: 30px 50px;
-	vertical-align: center;
-}
-
-h1{
-	
-	display: inline-block;
-	position: relative;
-	font-size: 70px;
-	vertical-align: center;
-	padding: 50px 50px;
-	width: 40%
-}
-
-.features, .about {
-	display:inline-block;
-	width: 40%;
-   }
-
-.services, .product, .vision{
-	display: inline-block;
-	width: 30%
-}
-
-title{
-	display: inline-block;
-	vertical-align: top;
-	width: 20%
-}
-
-.logo{
-	position: absolute;
-	text-align: right;
-	right: 100;
-	top: -50;
-}
-
-button{
-	display: inline-block;
+.main-heading button {
+	margin: -29px 78px 54px 100px;
+	padding: 5px 33px;
+	font-size: 13px;
+	text-align: center;
 	border: 1px solid black;
-	width: 100px;
 }
 
-.contact{
-	margin: 50px;
+.main-img {
+	display: inline-block;
+	width: 400px;
 }
 
-.copy{
-	margin: 50px
-}
-
-.middle-img{
-	margin: 50px;
-}
-
-.middleInf{
+.top-content {
+	width: 800px;
 	border-top: 1px solid black;
-	padding: 20px 0px;
-	border-bottom: 1px solid black;
+	margin-top: 20px;
+}
+
+.top-left {
+	display: inline-block;
+	width: 380px;
+	margin: 20px 0;
+}
+
+.top-right {
+	display: inline-block;
+	width: 380px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content {
+	width: 800px;
+	margin-top: 20px;
+}
+
+.bottom-left {
+	display: inline-block;
+	width: 250px;	
+	margin-right: 13px;
+}
+
+.bottom-middle {
+	display: inline-block;
+	width: 250px;
+	margin-right:13px;
+}
+
+.bottom-right {
+	display: inline-block;
+	width: 250px;
+	margin-right: 0;
+}
+
+.con{
+	border-top: 1px solid black;
+	padding-top: 30px;
+	margin: 20px 0;
+}
+address h2 {
+	margin: 20px;
+}
+
+footer p {
+	margin: 30px 0;
+	text-align: center;
 }
